@@ -27,11 +27,11 @@ function getAnswers(allQuestions: ContestDictionaryWord[], q:ContestDictionaryWo
 export default {
   name: 'ContestDictionaryWord',
   emits: ['correct','wrong'],
-  props: ['data','contestQuestions','showAnswer'],
+  props: ['data','selectedQuestions','showAnswer'],
   computed: {
     q():ContestDictionaryWord {return this.data as ContestDictionaryWord},
     answers() {return getStringArray(this.q.answer)},
-    choices() {return getAnswers(this.contestQuestions, this.data)}
+    choices() {return getAnswers(this.selectedQuestions, this.data)}
   },
   methods: {
     correctClass(ch:string) {
