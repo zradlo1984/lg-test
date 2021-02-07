@@ -14,6 +14,12 @@ import {
     AnjWHQ,
     AnjWords
 } from './anj/General';
+import {
+    Project1Lesson6SubA,
+    Project1Lesson6SubB,
+    Project1Lesson6SubC, Project1Lesson6SubCulture,
+    Project1Lesson6SubD, Project1Lesson6SubE, Project1Lesson6SubP
+} from "./anj/Project1/Lesson6";
 
 export default [
     {
@@ -151,6 +157,26 @@ export default [
                         questions: Project1Lesson5SubE },
                     {   subsection: 'Project',
                         questions: Project1Lesson5SubP },
+                ],
+            },
+            {
+                section: 'Lesson 6',
+                questions: Project1Lesson5,
+                subsections: [
+                    {   subsection: 'A My friends',
+                        questions: Project1Lesson6SubA },
+                    {   subsection: 'B Saturday morning',
+                        questions: Project1Lesson6SubB },
+                    {   subsection: 'C Shops',
+                        questions: Project1Lesson6SubC },
+                    {   subsection: 'D Clothes',
+                        questions: Project1Lesson6SubD },
+                    {   subsection: 'Culture',
+                        questions: Project1Lesson6SubCulture },
+                    {   subsection: 'English',
+                        questions: Project1Lesson6SubE },
+                    {   subsection: 'Project',
+                        questions: Project1Lesson6SubP },
                 ],
             },
         ]
